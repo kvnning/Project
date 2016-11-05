@@ -12,35 +12,37 @@ from pylab import pi
 Tmin = 0
 Tmax = 1 #365.256*24*3600 #Duration of one year.
 N = 365*2
-G = 4*pi #AU^3 yr^-2 M0^-1
-Times = np.linspace(Tmin,Tmax,N+1)
+G = 4*pi**2 #AU^3 yr^-2 M0^-1
+Times = np.linspace(Tmin,Tmax,N+1) #N+1 to change interval to steps.
 dT = (Times[2]-Times[0])*0.5
-p = 2
+p = 2 #No. of particles.
 
 """ May need to mess with array structure for efficency."""
 particle =  np.zeros([10,p]) #Xn,Yn,Zn,Vx,Vy,Vz,fx,fy,fz,Mass
 xold = np.zeros([3]) #Storage array for last position values. (Add to particle array?)
 
-#Inital conditions (t = 0)
+"""Inital conditions (t = 0)"""
+#Sun
 particle[9,0] = 1 #Sun mass
-
+particle[3,0] = 1 #Extra random vector
+#Earth
 particle[0,1] = 1 #AU/s
 particle[4,1] = particle[0,1]*2*pi #Speed in AU/yr
+particle[3,1] = 1 #Extra random vector
 particle[9,1] = 0.000003003
-plt.plot(particle[0,1],particle[1,1],'k.')
 
 def CalTotalAcc(*particles):
     particle[6:9,:] = 0 #Cleaning accelerations.
-    for i in range(0,p):
+    for i in range(0,p-1):
         for j in range(i+1,p):
             dX = particle[0,i]-particle[0,j]
             dY = particle[1,i]-particle[1,j]
             dZ = particle[2,i]-particle[2,j]
             R2 = dX**2+dY**2+dZ**2
-            K= G/R2 #G/R^2
+            K= G/R2**1.5 #G/R^3 (Avoids using force to speed up code - no extra divisions)
             #Adding changes in acceleration due to particles...
-            particle[6,i] = particle[6,i]-K*particle[9,j]*dX #-G/R^2 * M * r_x
-            particle[7,i] = particle[7,i]-K*particle[9,j]*dY
+            particle[6,i] = particle[6,i]-K*particle[9,j]*dX #-G/R^3 * M * r_x
+            particle[7,i] = particle[7,i]-K*particle[9,j]*dY #-G/R^3 is 'K'
             particle[8,i] = particle[8,i]-K*particle[9,j]*dZ
             
             particle[6,j] = particle[6,j]+K*particle[9,i]*dX #Opposite dX vector,results in positive total.
@@ -64,6 +66,7 @@ for i in range(0,p):
     particle[4,i] = xold[1]
     particle[5,i] = xold[2]
 
+#Main Verlet Integration Loop (Starts second timestep due to above)
 for t in Times[1:]:
     for i in range(0,p):
         #Recalculating all accelrations
@@ -81,8 +84,9 @@ for t in Times[1:]:
         particle[4,i] = xold[1]
         particle[5,i] = xold[2]
         plt.plot(particle[0,1],particle[1,1],'k.')
-    print(t)
-    print(particle[0,:])
-    print(particle[1,:])
-    
+        plt.plot(particle[0,0],particle[1,0],'b.')
+    #print(t)
+    #print(particle[0,:])
+    #print(particle[1,:])
+plt.show()
     
