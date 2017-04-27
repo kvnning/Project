@@ -12,7 +12,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 st = 14909319.84
 
-n = 2008 #Total number of iterations
+n = 16174 #Total number of iterations
 f = open("ParticleBoxDump.txt","r")
 Time = np.zeros(n)
 Active = np.zeros(n)
@@ -28,7 +28,7 @@ y = np.zeros(n)
 z = np.zeros(n)
 m = np.zeros(n)
 
-Active[0] = 216 #Starting active particle number.
+Active[0] = 863 #Starting active particle number.
 
 def GraphFmt(Title,Ylabel,Xlabel,xmin=None,xmax=None,ymin=None,ymax=None,Legend=False):
     """ A short graph formatting function. Serves no other purpose than to save space."""
@@ -47,9 +47,6 @@ if Animation == True: #3D plotting
     fig = plt.figure()
     fig.clf()
     ax = fig.add_subplot(111,projection='3d')
-    ax.set_xlim(0,50)
-    ax.set_ylim(0,50)
-    ax.set_zlim(-25,25)
 
 
 for i in range(1,n):
@@ -73,12 +70,12 @@ for i in range(1,n):
     f.readline()
     for a in range(0,int(Active[i])):
         m[a] = f.readline()
-    if i%3 == 0 and Animation == True:
+    if i%21 == 0 and Animation == True:
         for a in range(0,int(Active[i])):
             ax.scatter(x[a],y[a],z[a],s=m[a]**(2./3))
-        ax.set_xlim(0,50)
-        ax.set_ylim(0,50)
-        ax.set_zlim(-25,25)
+        ax.set_xlim(0,100)
+        ax.set_ylim(0,100)
+        ax.set_zlim(-175,175)
         fig.savefig("Step%d" %i)
         ax.cla()
         

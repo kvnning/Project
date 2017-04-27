@@ -33,21 +33,21 @@ kgm3 = 1.477456948e19
 st = 14909319.84
 
 G = 1 #Parsec^3 yr^-2 M0^-1
-p = 500 #No. of particles.
-InitialP = 216 #No. of particles.
+p = 1100 #No. of particles.
+InitialP = 200 #No. of particles.
 tolerance = 0.33 #Timestep control tolerance
-MassTolerance = 1000 #Maximum accretion amount.
+MassTolerance = 0.05 #Maximum accretion amount.
 InitialSpeed = 20 #km/s
-Cs = 1*kms #Sound speed km/s
+Cs = 1.395*kms #Sound speed km/s
 a = 0.5 #Accretion column parameter (0.5~1)
 ISMReturn = 0.5 #Fraction of mass from supernova that is returned to the ISM.
 
 clouddensity = 100 *(3*1.6726219e-27*10**6)*kgm3 #Density: cloud ptle no., He/H, H+ mass, m^3, Conversion
 ISMdensity = 5 *(1.4*1.6726219e-27*10**6)*kgm3
-E = (3/(4*pi) * (100/clouddensity) )**(1./3) #Softening Coefficent.
-GMcentral = G*86321.5 #Gravitational central constant
+Tff = np.sqrt(3*pi/(32*clouddensity))
+
 Time = 0.
-Tmax = 6.71
+Tmax = 10
 dTmax = 0.02 #3pc at 
 
 #M=0
@@ -77,6 +77,8 @@ List = np.arange(0,p,1)
 CountdownList = np.zeros(p)
 CollisionList = np.zeros(p)
 TotalList = np.arange(0,p,1)
+SFM = np.zeros(p) #Amount of star mass within a star.
+SFE = np.zeros(p) #Fraction of star mass to cloud mass.
 
 global AccretionGain 
 AccretionGain = 0.
@@ -146,15 +148,23 @@ def RemoveParticle(i):
     CountdownList[i] = 0
     Countdown[i] = 0
     TotalList[i] = -1
+    SFM[i] = 0
     
-def SNF(x):
-    """Relationship used to model supernova masses. a*x^b+c with a=0.24337062, b=0.74382654 & c=-1.00611354.
+def SNF(CloudMass,SFE):
+    """Relationship used to model supernova masses. a*CloudMass^b + c. 'a' is a function of SFE, in the form of a'*SFE^b'.
+    SFE in this context refers to the fraction/precentage of cloud mass that is stars.
+    a' = 0.24337061
+    b' = 0.74382654
+    b  = 0.74382654
+    c  = -1.00611354
     All values were determined using a curvefit function on the 'required solar mass' integral."""
-    return (0.02423769*x**0.74382668 -1.00610948)
+    return ((0.24337061*SFE**0.7438265)*CloudMass**0.74382654 -1.00611354)
     
 def SNCheck(i): 
     """Aqcuires and updates countdown of a particle. DOES NOT DO TIMESTEP. Lowest update possible is 2Myr from StarLT."""
-    StarMass = SNF(particle[9,i])
+    StarMass = SNF(particle[9,i],SFE[i])
+    if StarMass < 8:
+        return 0
     StarLifetime = StarLT(StarMass)
     if Countdown[i] <= 0:
         Countdown[i] = StarLifetime
@@ -167,7 +177,9 @@ def SNCheck(i):
 def Supernova(i):
     """Explodes a particle in a supernova."""
     CountdownList[i] = 0
+    SFM[i] = 0
     """
+    #Optional Blackhole code.
     if particle[9,i] > 22000:
         print("Particle %d has turned into a black hole! [%d]" %(i,MaxActive-1) )
         global BlackholeLoss
@@ -187,7 +199,10 @@ def Supernova(i):
     CP[0,:] += particle[0,i] #Unable to broadcast as a array.
     CP[1,:] += particle[1,i]
     CP[2,:] += particle[2,i]
-    CP[3:6,:] = CPUV*20*kms
+    
+    MaxVelo = np.sqrt(2e44/(particle[9,i]*1.99e30))/1000. #Maximum velocity possible from 10^51 ergs, kms.
+    print(MaxVelo)
+    CP[3:6,:] = CPUV*MaxVelo*kms
     CP[3,:] += particle[3,i] #Inherits parent speed.
     CP[4,:] += particle[4,i]
     CP[5,:] += particle[5,i]
@@ -196,7 +211,6 @@ def Supernova(i):
     
     global SupernovaLoss
     SupernovaLoss += particle[9,i]*(ISMReturn)
-    #CPE = (3/(4*pi) * (CP[9,:]/clouddensity) )**(1./3)
     
     #Setting Lists - Aqcuire availible slots and reactivate them.
     Availible = List[TotalList<0] 
@@ -351,7 +365,7 @@ def TimestepControl():
         #Timestep calculation with previous velocity.
         dT[A_i] = (-Speed[i] + np.sqrt(Speed[i]**2+2*Acceleration[i]*tolerance*E[i]) )/Acceleration[i]
         dTdM[A_i] = MassTolerance*particle[9,i]/(a*pi*ISMdensity*Speed[i]*(2*G*particle[9,i]/SpeedSqr)**2)
-    return min(dTmax,np.min(dT))#,np.min(dTdM))
+    return min(dTmax,np.min(dT),np.min(dTdM))
         
 def Accretion(i):
     """Accretion due to Bondi-Hoyle or from cloud radius (which ever is larger). Accreted mass is then placed at the rear of 
@@ -367,6 +381,7 @@ def Accretion(i):
         print("HELP: %d" %i)
         if E[i]>R_BH:
             print("E")
+            print(Speed[i])
         else:
             print("R_BH")
             print(Speed[i])
@@ -401,8 +416,11 @@ while Time < Tmax:
 
     ActiveList,MaxActive = ListUpdate(TotalList)
     for i in ActiveList:
-        if particle[9,i] > 2841: #8M required cloud mass
+        if particle[9,i] > 1057: #Minimum mass for column density 10^21
+            SFM[i] += (0.01*particle[9,i])*(dT/Tff) #Star formation Mass. 1% converted per freefall time.
+            SFE[i] =  SFM[i]/particle[9,i]
             SNCheck(i)
+            
         #Recalculating all accelrations
         #Verlet step (Position) : Rn+1 = Rn + Vn*dT + 0.5*fn*dT^2
         particle[0,i] = particle[0,i] + particle[3,i]*dT + 0.5*particle[6,i]*dT**2
