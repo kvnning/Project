@@ -1,0 +1,500 @@
+Particle 260 has left the system. [227] (T:9.5704)
+Particle 161 has left the system. [226] (T:9.5735)
+Collision between 117 and 198. [225]
+Collision between 160 and 224. [224]
+Collision between 26 and 216. [223]
+Collision between 139 and 237. [222]
+Collision between 130 and 136. [221]
+Collision between 26 and 179. [220]
+Collision between 184 and 221. [219]
+Collision between 202 and 214. [218]
+Particle 72 has left the system. [217] (T:9.5875)
+Collision between 79 and 97. [216]
+Collision between 21 and 167. [215]
+Collision between 29 and 275. [214]
+Collision between 50 and 89. [213]
+Collision between 99 and 205. [212]
+Collision between 197 and 206. [211]
+Collision between 31 and 182. [210]
+Collision between 19 and 33. [209]
+Collision between 92 and 196. [209]
+Collision between 21 and 129. [207]
+Collision between 22 and 65. [206]
+Particle 29 has left the system. [205] (T:9.6059)
+Collision between 5 and 134. [204]
+Collision between 160 and 166. [203]
+Collision between 37 and 102. [202]
+Collision between 142 and 152. [202]
+Particle 226 has left the system. [200] (T:9.6161)
+Collision between 34 and 41. [199]
+Collision between 98 and 227. [199]
+Collision between 120 and 218. [199]
+Particle 107 has left the system. [196] (T:9.6205)
+Collision between 46 and 144. [195]
+Collision between 46 and 66. [194]
+Collision between 5 and 115. [193]
+Collision between 13 and 60. [193]
+Collision between 38 and 70. [191]
+Collision between 68 and 74. [190]
+Particle 105 has left the system. [189] (T:9.6479)
+Collision between 126 and 210. [188]
+Particle 186 has left the system. [187] (T:9.6486)
+Collision between 176 and 282. [186]
+Collision between 5 and 220. [185]
+Collision between 16 and 103. [184]
+Collision between 34 and 180. [183]
+Collision between 25 and 43. [182]
+Collision between 22 and 155. [181]
+Particle 47 has left the system. [180] (T:9.6593)
+Collision between 138 and 254. [179]
+Collision between 99 and 217. [178]
+Collision between 197 and 199. [177]
+Particle 108 has left the system. [176] (T:9.6617)
+Collision between 62 and 92. [175]
+Particle 13 has left the system. [174] (T:9.6657)
+Collision between 32 and 55. [173]
+Particle 63 has left the system. [172] (T:9.6714)
+Particle 18 has left the system. [171] (T:9.6722)
+Particle 178 has left the system. [170] (T:9.6773)
+Collision between 52 and 132. [169]
+Particle 211 has left the system. [168] (T:9.6790)
+Collision between 12 and 188. [167]
+Collision between 23 and 57. [167]
+Collision between 62 and 117. [165]
+Particle 68 has left the system. [164] (T:9.6833)
+Particle 159 has left the system. [163] (T:9.6895)
+Collision between 137 and 181. [162]
+Collision between 24 and 139. [161]
+Collision between 4 and 36. [160]
+Particle 49 has left the system. [159] (T:9.6987)
+Particle 6 has left the system. [158] (T:9.7006)
+Particle 194 has left the system. [158] (T:9.7006)
+Particle 4 has exploded into 75 particles! (T:9.7053) [231]
+15015.931639
+81.8111162646
+[  6  13  18  29  33  36  41  42  43  47  49  55  57  60  63  65  66  68
+  70  72  74  82  85  88  89  92  97 102 103 105 107 108 115 116 117 129
+ 132 134 136 139 144 145 152 155 159 161 162 166 167 168 175 178 179 180
+ 181 182 186 188 190 194 196 198 199 205 206 210 211 214 216 217 218 219
+ 220 221]
+Collision between 31 and 153. [230]
+Collision between 76 and 91. [230]
+Collision between 103 and 116. [230]
+Collision between 180 and 181. [230]
+Collision between 199 and 219. [230]
+Particle 104 has left the system. [225] (T:9.7074)
+Particle 212 has left the system. [224] (T:9.7090)
+Collision between 47 and 80. [223]
+Collision between 15 and 195. [222]
+Collision between 50 and 204. [222]
+Collision between 50 and 196. [220]
+Particle 191 has left the system. [219] (T:9.7148)
+Particle 62 has left the system. [218] (T:9.7156)
+Collision between 118 and 222. [217]
+Collision between 27 and 161. [216]
+Particle 149 has left the system. [215] (T:9.7235)
+Collision between 85 and 202. [214]
+Collision between 73 and 145. [213]
+Collision between 15 and 71. [212]
+Particle 100 has left the system. [211] (T:9.7315)
+Collision between 206 and 215. [210]
+Collision between 179 and 194. [209]
+Collision between 70 and 141. [208]
+Collision between 28 and 248. [207]
+Countdown started for particle 86 (T:9.739946, C:3.7046).
+7675.04792757
+Particle 23 has left the system. [206] (T:9.7431)
+Countdown started for particle 21 (T:9.744662, C:3.7043).
+4913.40258468
+Collision between 146 and 199. [205]
+Particle 174 has left the system. [204] (T:9.7452)
+Collision between 151 and 190. [203]
+Particle 171 has left the system. [202] (T:9.7468)
+Particle 216 has left the system. [201] (T:9.7495)
+Collision between 34 and 49. [200]
+Collision between 31 and 192. [199]
+Particle 213 has left the system. [198] (T:9.7529)
+Particle 297 has left the system. [197] (T:9.7540)
+Collision between 12 and 157. [196]
+Collision between 14 and 70. [196]
+Particle 158 has left the system. [194] (T:9.7586)
+Particle 205 has left the system. [193] (T:9.7671)
+Countdown started for particle 11 (T:9.767683, C:3.7021).
+4369.09450181
+Particle 30 has left the system. [192] (T:9.7689)
+Particle 33 has left the system. [192] (T:9.7689)
+Collision between 72 and 310. [190]
+Particle 105 has left the system. [189] (T:9.7734)
+Collision between 59 and 67. [188]
+Particle 4 has left the system. [187] (T:9.7753)
+Particle 82 has left the system. [186] (T:9.7773)
+Particle 41 has left the system. [185] (T:9.7812)
+Collision between 99 and 139. [184]
+Collision between 31 and 40. [183]
+Particle 66 has left the system. [182] (T:9.7881)
+Particle 165 has left the system. [181] (T:9.7902)
+Particle 162 has left the system. [180] (T:9.7930)
+Particle 221 has left the system. [180] (T:9.7930)
+Collision between 110 and 131. [178]
+Collision between 43 and 209. [177]
+Particle 217 has left the system. [176] (T:9.7966)
+Collision between 185 and 186. [175]
+Particle 19 has exploded into 38 particles! (T:9.8033) [212]
+7757.47407659
+113.822545319
+[  4  23  30  33  40  41  49  62  66  67  70  71  80  82  91 100 104 105
+ 116 131 139 141 145 149 153 157 158 161 162 165 171 174 181 186 190 191
+ 192]
+Particle 207 has left the system. [211] (T:9.8033)
+Collision between 23 and 33. [210]
+Collision between 40 and 104. [210]
+Collision between 49 and 139. [210]
+Collision between 67 and 171. [210]
+Collision between 71 and 145. [210]
+Collision between 100 and 153. [210]
+Collision between 141 and 181. [210]
+Collision between 157 and 181. [210]
+Collision between 141 and 157. [203]
+Collision between 67 and 121. [202]
+Particle 65 has left the system. [201] (T:9.8079)
+Collision between 30 and 189. [200]
+Particle 182 has left the system. [199] (T:9.8111)
+Collision between 80 and 187. [198]
+Particle 134 has left the system. [197] (T:9.8150)
+Particle 218 has left the system. [196] (T:9.8182)
+Particle 13 has left the system. [195] (T:9.8188)
+Particle 188 has left the system. [194] (T:9.8191)
+Collision between 37 and 130. [193]
+Particle 74 has left the system. [192] (T:9.8241)
+Collision between 27 and 83. [191]
+Collision between 53 and 69. [190]
+Collision between 23 and 100. [189]
+Collision between 141 and 191. [188]
+Collision between 39 and 201. [187]
+Particle 184 has left the system. [186] (T:9.8332)
+Collision between 34 and 178. [185]
+Collision between 82 and 126. [184]
+Particle 26 has left the system. [183] (T:9.8370)
+Collision between 30 and 103. [182]
+Particle 63 has left the system. [181] (T:9.8390)
+Collision between 186 and 192. [180]
+Collision between 173 and 220. [179]
+Collision between 55 and 91. [178]
+Collision between 110 and 112. [177]
+Collision between 58 and 113. [176]
+Collision between 128 and 167. [175]
+Particle 179 has left the system. [174] (T:9.8545)
+Collision between 21 and 47. [173]
+Particle 60 has left the system. [172] (T:9.8563)
+Collision between 106 and 240. [171]
+Collision between 17 and 66. [170]
+Particle 81 has left the system. [169] (T:9.8591)
+Collision between 27 and 97. [168]
+Collision between 5 and 21. [167]
+Collision between 27 and 105. [166]
+Collision between 51 and 131. [165]
+Collision between 27 and 34. [164]
+Particle 75 has left the system. [163] (T:9.8837)
+Collision between 57 and 93. [162]
+Collision between 87 and 183. [161]
+Particle 142 has left the system. [160] (T:9.8919)
+Collision between 11 and 203. [159]
+Collision between 52 and 225. [158]
+Particle 10 has left the system. [157] (T:9.9051)
+Collision between 9 and 133. [156]
+Collision between 15 and 45. [155]
+Collision between 2 and 159. [154]
+Particle 223 has left the system. [153] (T:9.9145)
+Collision between 50 and 129. [152]
+Collision between 57 and 175. [152]
+Particle 174 has left the system. [150] (T:9.9215)
+Particle 84 has left the system. [149] (T:9.9222)
+Collision between 50 and 135. [148]
+Collision between 22 and 162. [147]
+Particle 39 has exploded into 37 particles! (T:9.9251) [183]
+7415.00535109
+116.421375269
+[ 10  13  21  26  33  34  45  47  60  63  65  66  69  74  75  81  83  84
+  91  93  97 100 103 104 105 112 113 121 126 129 130 131 133 134 135 139]
+Collision between 13 and 100. [182]
+Collision between 39 and 131. [182]
+Collision between 47 and 130. [182]
+Collision between 113 and 135. [182]
+Collision between 104 and 125. [178]
+Collision between 5 and 41. [177]
+Particle 146 has left the system. [176] (T:9.9321)
+Collision between 72 and 277. [175]
+Collision between 27 and 144. [174]
+Collision between 74 and 190. [173]
+Collision between 83 and 138. [172]
+Collision between 27 and 63. [171]
+Collision between 105 and 160. [170]
+Collision between 31 and 93. [169]
+Collision between 81 and 91. [168]
+Particle 14 has exploded into 51 particles! (T:9.9485) [218]
+10359.2424649
+98.4973305594
+[ 41  63  91  93 100 125 130 131 135 138 142 144 145 146 153 157 159 160
+ 162 167 171 174 175 178 179 181 182 183 184 187 188 189 190 191 192 194
+ 195 196 199 201 202 203 204 205 207 209 212 213 215 216]
+Collision between 63 and 215. [217]
+Collision between 91 and 174. [217]
+Collision between 146 and 188. [217]
+Collision between 201 and 213. [217]
+Collision between 160 and 173. [213]
+Collision between 151 and 175. [212]
+Collision between 27 and 112. [211]
+Collision between 26 and 78. [210]
+Collision between 36 and 85. [209]
+Collision between 127 and 149. [208]
+Particle 187 has left the system. [207] (T:9.9572)
+Particle 179 has left the system. [206] (T:9.9620)
+Collision between 29 and 180. [205]
+Collision between 30 and 97. [205]
+Particle 41 has left the system. [203] (T:9.9652)
+Collision between 34 and 94. [202]
+Particle 52 has left the system. [201] (T:9.9693)
+Particle 135 has left the system. [200] (T:9.9709)
+Collision between 192 and 209. [199]
+Particle 181 has left the system. [198] (T:9.9728)
+Collision between 203 and 214. [197]
+Collision between 131 and 200. [196]
+Particle 205 has left the system. [195] (T:9.9748)
+Particle 191 has left the system. [194] (T:9.9781)
+Particle 14 has left the system. [193] (T:9.9815)
+Collision between 140 and 160. [192]
+Collision between 12 and 139. [191]
+Collision between 136 and 170. [190]
+Collision between 61 and 129. [189]
+Collision between 10 and 80. [188]
+Particle 43 has left the system. [187] (T:9.9941)
+Collision between 16 and 71. [186]
+Collision between 75 and 87. [186]
+Collision between 26 and 74. [184]
+Particle 208 has left the system. [183] (T:9.9965)
+Collision between 50 and 178. [182]
+Collision between 3 and 54. [181]
+Particle 109 has left the system. [180] (T:9.9985)
+Particle 37 has left the system. [179] (T:9.9995)
+16060
+8107.74536317
+0.959795163248
+0.0336838465929
+2.2307024224e-07
+[array([   504.41716322,    420.04896352,   1069.76486731,   2550.23191215,
+          281.70909102,  18071.84034314,    279.29224565,    675.05654242,
+          450.76985336,   4040.90873208,    648.24000469,   4810.74024204,
+         6441.97009759,    316.9557903 ,      0.        ,   5311.40344122,
+         6905.08928224,   1975.24235629,    278.09109495,    264.10984604,
+         1484.60617602,    171.86623416,   3412.44148719,    663.5766134 ,
+         5382.06862548,   1457.21410017,   1790.4698335 ,  12217.24447894,
+          913.51110453,    746.40156105,   1488.81663795,   8038.19078991,
+         1607.53263802,    172.27414867,   1373.26624996,    822.48685032,
+         1214.22868323,      0.        ,   2041.88504639,    315.61877203,
+          496.52477882,      0.        ,    278.48836186,      0.        ,
+         1381.34811785,    171.51131722,   6292.68567868,    315.28578547,
+          407.52919908,    487.84153324,   5555.81352258,   2750.19373756,
+            0.        ,   1427.89284235,      0.        ,    483.06604048,
+          901.25066687,   1999.29572654,   1927.28470668,    601.28832302,
+          172.16863441,   1137.5743042 ,    280.34926631,    274.09959765,
+          860.0853157 ,    171.69074288,    172.55118227,    657.91958093,
+          277.89781488,    172.30093642,    280.7214213 ,      0.        ,
+         1658.10380236,   2434.79010031,      0.        ,   1306.80992914,
+          650.25057947,   2387.12479242,      0.        ,   1408.19066234,
+            0.        ,    282.19536982,    924.6840173 ,   1431.48182985,
+          171.58233543,      0.        ,   7936.15137147,      0.        ,
+          278.33975892,    281.53524608,    351.07866152,    278.52369924,
+          278.80054711,    148.53812857,      0.        ,    413.62500919,
+          416.41367881,      0.        ,   1765.83991784,   1481.06213257,
+          144.3021026 ,    413.06841698,    278.25101984,    172.04753167,
+          554.77634121,   1464.65947894,   1932.26938345,    278.03837748,
+          280.31821874,      0.        ,   2288.1329788 ,    324.27968859,
+            0.        ,    317.53636997,    719.38015669,    277.64064636,
+          278.60667286,    277.3493613 ,    627.01462568,   1274.89937897,
+          476.68834756,    171.07081583,    403.81512349,    394.31582077,
+          411.96054325,    147.20359318,    171.65149586,    684.81835447,
+         1284.50040022,      0.        ,    143.21290985,    476.16373986,
+          278.73111122,    171.70234036,    171.31473566,      0.        ,
+          615.08608056,    872.63242482,    148.47660052,      0.        ,
+         1135.50405395,    778.53239615,    147.87495109,    448.86099503,
+          142.14521407,    146.2574633 ,    277.76878983,    327.25052321,
+          325.00974745,      0.        ,    327.51354253,   1112.89020597,
+          278.28915567,    142.655731  ,    332.38907791,    276.42595235,
+          456.79789561,    142.30747873,    275.5498711 ,    144.46839321,
+            0.        ,    280.93724603,    146.90509297,    333.23180553,
+          344.65813353,    275.71654427,    279.47817651,    144.28700494,
+          281.24495689,    349.57396958,      0.        ,    148.10459216,
+          325.48893934,      0.        ,      0.        ,      0.        ,
+         1188.67455937,    674.17087083,      0.        ,      0.        ,
+            0.        ,      0.        ,    143.50532237,    142.14361672,
+          145.73962457,    555.39864432,    439.39390071,      0.        ,
+            0.        ,    145.40701038,    145.64900707,      0.        ,
+          262.63655187,    533.1260121 ,    143.82569505,    147.96922824,
+          146.84382042,    711.95584517,    277.38006533,    147.61237982,
+            0.        ,    276.65484871,    147.64093598,    404.96021836,
+          148.59979047,      0.        ,    578.77473375,    148.61012134,
+            0.        ,      0.        ,    277.57309468,    275.13404319,
+          144.82768648,      0.        ,      0.        ,      0.        ,
+          145.95067451,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,    664.40938034,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,    100.11345387,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ,      0.        ,
+            0.        ,      0.        ,      0.        ])]
+>>> 
